@@ -1,0 +1,8 @@
+---
+source_es_host: <source elasticsearch endpoint>
+dest_es_host: <dest elasticsearch endpoint>
+source_es_port: 9200
+dest_es_port: 9200
+bucket_name: <aws-bucket-migrate>
+aws_region: <aws-region>
+indices_list: indices1,indices2
