@@ -140,7 +140,7 @@ def migrate_indices(indice, source_es_host, source_es_port, dest_es_host, dest_e
         create_snapshot(source_es_endpoint,repository_name,indice,snaphsot_name)
         print "creating snapshot repository on dest for indices %s" % indice
         create_snapshot_repository(repository_name, dest_es_endpoint, bucket,aws_region,base_path)
-        print "deleting existing repository on source for indices %s" % indice
+        print "deleting indices on dest for indices %s" % indice
         cleanup_indices(dest_es_host,dest_es_port,indice)
         print "sleep for 20 seconds"
         time.sleep(20)
