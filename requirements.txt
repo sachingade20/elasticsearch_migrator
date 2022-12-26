@@ -17,4 +17,4 @@ s3transfer==0.2.0
 six==1.12.0
 urllib3==1.24.2
 voluptuous==0.11.5
-wheel==0.24.0
+wheel==0.38.1
